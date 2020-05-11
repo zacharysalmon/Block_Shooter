@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: rgb(164, 209, 244);
+    }
+
+html {
+    font-size: 24pt;
+    }
+
+body {
+    font: 62.5%/1.5 Georgia, Verdana, sans-serif;
+    padding-bottom: 0;
+    }
+
+p {
+    font: 1.0em/1.4 Georgia, Verdana, sans-serif;
+    margin-bottom: 0;
+    }
+
+h1 {
+    font-size: 20pt;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+a {
+    padding-left: 5px;
+    font-size: 28pt;
+}
+
+#head p {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+#homelayout {
+    text-align: center;
+}
+
+#homelayout h1 {
+    word-spacing: 10em;
+}
+
+
+#travels h1 {
+    text-align: left;
+    padding-left: 120px;
+}
+
+
+#travels img {
+
+    margin-left: 50px;
+}
+
+
+#nz p { 
+    margin: 0 30% 15% 30%;
+    display: block;
+}
+
+#nz img { 
+    display: block;
+    margin-left: 5%;
+    float: left;
+}
+
+#fit h1 {
+    text-align: center;
+}
+
+#fit p {
+    text-align: center;
+}
+
+canvas {
+    border: 1px;
+    background: white;
+    margin: 50px 22.5% 0;
+}
+
+#controls p{
+    text-align: center;
+}
+
+#game_over{
+    font-size: 22pt;
+    text-align: center;
+}
+
+#game_buttons button{
+    margin: 0px 43.3%;
+    font-size: 24pt;
+    background: #f1f1f1bf;
+}
+
+#score {
+    font-size: 28px;
+    margin: 0px 42%;
+    font-weight: bold;
+}
+
+#leaderboard {
+    text-align: center;
+    font-size: 24px;
+}
+
+#leaderboard input {
+    background: white;
+}
+
+#lb_header h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#lb_header table, tr, th {
+    margin: 10px 340px 0 340px;
+    border: 1px solid black; 
+    width: max-content;
+    border-collapse: collapse;
+}
+
+#lb_header th, td {
+    width: 200px;
+    text-align: center;
+}
+
+#lb_output table, tr, td {
+    margin: 0px 340px;
+    width: max-content;
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+#lb_output td {
+    width: 200px;
+    text-align: center;
+}

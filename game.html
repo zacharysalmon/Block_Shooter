@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>JS game</title>
+    <meta charset="utf-8" />
+    <link href="css_project.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="score"></div>
+    <div id="controls">
+        <p>Press the left arrow to move left and the right arrow to move right.</p>
+        <p>Press the Spacebar to shoot.</p>
+    </div>
+    <div id="moving_game">
+        <script src="game.js"></script>
+    </div>
+    <br>
+    <div id="game_buttons">
+        <div>
+            <button id="reset_game">Reset Game</button>
+        </div>
+    </div>
+    <div id="game_over"></div>
+    <div id="leaderboard">
+        <a href="http://ice.truman.edu/~zrs8473/semester_project/milestones/leaderboard.php">Leaderboard</a>
+        <form id="form" method="post" action="leaderboard.php">
+            <input type="hidden" autocomplete="off" id="form_display" name='lb_name'>
+            <input type="hidden" id="final_score" name="finalScore" value="unset">
+            <input type="hidden" id="form_submit" value='Submit'>
+        </form>
+    </div>
+</body>
+
+</html>
