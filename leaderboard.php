@@ -72,7 +72,7 @@
         $dbserver= "mysql.truman.edu";
         $dbname= "zrs8473CS315";
         $dbuser= "zrs8473";
-        $dbpass= "oowefiye";
+        $dbpass= "";
         try 
         {
         $db = new PDO("mysql:host=$dbserver;dbname=$dbname","$dbuser", "$dbpass");
